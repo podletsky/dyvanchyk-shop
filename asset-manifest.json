@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dyvanchyk-shop/static/css/main.7acaea2f.css",
-    "main.js": "/dyvanchyk-shop/static/js/main.18387e81.js",
+    "main.js": "/dyvanchyk-shop/static/js/main.d05df95f.js",
     "index.html": "/dyvanchyk-shop/index.html",
     "main.7acaea2f.css.map": "/dyvanchyk-shop/static/css/main.7acaea2f.css.map",
-    "main.18387e81.js.map": "/dyvanchyk-shop/static/js/main.18387e81.js.map"
+    "main.d05df95f.js.map": "/dyvanchyk-shop/static/js/main.d05df95f.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.18387e81.js"
+    "static/js/main.d05df95f.js"
   ]
 }
