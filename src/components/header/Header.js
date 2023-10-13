@@ -1,37 +1,36 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header>
-      <h1>Логотип</h1>
+      <div className="logo">
+        <a href="/">Логотип</a>
+      </div>
       <nav>
         <ul>
           <li>
             <a href="/">Головна</a>
           </li>
           <li>
-            <a href="/дивани">Дивани</a>
+            <Link to="/каталог-товарів">Каталог товарів</Link>{' '}
+            {/* Додайте посилання на каталог товарів */}
           </li>
           <li>
-            <a href="/ліжка">Ліжка</a>
-          </li>
-          <li>
-            <a href="/матраси">Матраси</a>
-          </li>
-          <li>
-            <a href="/кутки-кухонні">Кутки кухонні</a>
-          </li>
-          <li>
-            <a href="/столи">Столи</a>
-          </li>
-          <li>
-            <a href="/про-нас">Про нас</a>
-          </li>
-          <li>
-            <a href="/контакти">Контакти</a>
+            <Link to="/акції">акції</Link>{' '}
           </li>
         </ul>
       </nav>
+      <div className="cart">
+        <a href="/кошик">
+          <i className="fa fa-shopping-cart"></i> Кошик
+        </a>
+      </div>
+      <div className="language">
+        <a href="/мова">Українська</a>
+      </div>
+      <div className="contact">
+        <a href="/контакти">Контакти</a>
+      </div>
     </header>
   );
 }
